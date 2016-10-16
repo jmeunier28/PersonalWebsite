@@ -1,3 +1,12 @@
+/*
+
+JoAnn Meunier 
+Personal Website 
+10/15/16
+
+*/
+
+
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
@@ -17,7 +26,9 @@ app.get('/', function(req, res) {
   res.sendfile('index.html');
 });
 
+app.get('/Resume', function(req,res){
+	res.sendfile('JoAnnMeunier.html');
+})
 
 
-//So basically when i do app.use(/......'/Public') now the the / points to the /Public directory so when i request for localhost:3000/
-// the / actually translates to /Public. so even in the html file when i link the css file i need not write /public/.. i can just do /...
+

@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Pranay Singh</title>
+  <title>Jo-Ann Meunier</title>
 
   <!-- Bootsap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -118,7 +118,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">{ Work }</h2>
+          <h2 class="section-heading">Experience</h2>
           <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
@@ -130,11 +130,11 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img src="img/portfolio/cover.jpg" class="img-responsive" alt="">
+            <img src="img/logos/broadcom.jpg" class="img-responsive" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Formula Manipal</h4>
-            <p class="text-muted">Product Development</p>
+            <h4>Software QA Intern Broadcom</h4>
+            <p class="text-muted">Product Testing</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -147,8 +147,8 @@
             <img src="img/portfolio/smart.jpg" class="img-responsive" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Home Automation System</h4>
-            <p class="text-muted">Internet of Things</p>
+            <h4>Curriculum Based Video Application for Kids</h4>
+            <p class="text-muted">Product Development</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -158,13 +158,14 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img src="img/portfolio/jitsi.png" class="img-responsive" alt="">
+            <img src="img/logos/cidar.jpg" style="width: 500px;" class="img-responsive" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Jitsi - IOS</h4>
+            <h4>Jello- An Analysis Tool for Synthetic Biologists</h4>
             <p class="text-muted">Software Development</p>
           </div>
         </div>
+
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
@@ -190,7 +191,17 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Get in touch</h2>
-          <h3 class="section-subheading-new">Feel free to contact me with any questions about my projects or work experience! Thanks for visiting!</h3>
+          <h3 class="section-subheading-new">Feel free to contact me with any questions about my projects or work experience! Thanks for visiting!
+          <br>
+          Email: jmeunier@bu.edu
+          <br>
+          Phone: 860-394-8529
+          <br>
+          <a href="JoAnnMeunier.html">Resume</a>
+          <br>
+          <br>
+          Or find me on LinkedIn or GitHub!
+          </h3>
           <img class="img-circle img-responsive down-arrow" src="img/portfolio/down.png" alt="">
 
         </div>
@@ -250,20 +261,12 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <h2>Formula Manipal</h2>
+              <h2>Internship Experience</h2>
               <p class="item-intro text-muted">&nbsp;&nbsp;&nbsp;
-                <strong>Formula manipal</strong> is manipal universities official formula student team that came together to compete at the formula student competition held worldwide. Comprising of 24 engineers from various departments, the team was challenged
-                to design, build and test a formula student car. As part of the electrical subsystem we were tasked with delivering electronic solutions to enhance car and driver performance.
-                <br> &nbsp;&nbsp;&nbsp;After several meetings with team drivers I decided to develop a pneumatic gear shifting system that would use solenoid actuators to actuate a piston to shift gears using high pressured air. Luckily enough Festo agreed
-                to sponsor us with the required pneumatic components. I decided to use an Arduino Nano due to the advantages it offered within a space constraint system and used the EAGLE layout editor to prototype the PCB’s. Obviously it took a few iterations
-                to get to the system working as desired because nothing ever works at first try.
-                <br> &nbsp;&nbsp;&nbsp;Once i got the hardware down it was time to get cracking on the code. I decided to use two push buttons on the steering wheel to launch the gear up shift and gear down shift mechanism. The button input was then used
-                to trigger a hardware interrupt in the micro controller. The hardware interrupt would initiate the upshift/downshift functions which took in inputs from actuator position sensors as feedback to time the gear shift.
-                <br>&nbsp;&nbsp;&nbsp; It took me almost a year to get the whole system right after tackling all sorts of challenges such as power shortage from the alternator to transient current in the circuit causing rogue signals. By tweaking the software
-                and hardware after extensive testing on the track I was able to get reliable shifts in 200 millisecs, which was better than the planned requirements.
+              <!-- Come back here to fill in later -->
               </p>
               <p class="item-intro text-muted">
-                Things I learnt :
+                Things learned:
                 <br> -> Electronics is like black magic, things that work the night before might not work in the morning. Deal with it.
                 <br> -> Sometimes it's better to give up and loose the battle than to burn out and loose the war.
                 <br> -> Your digital multimeter is your best friend. Use it.
@@ -380,14 +383,19 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <h2>Jitsi Meets IOS</h2>
-              <p class="item-intro text-muted">An ongoing project part of EC500C1 coursework. The big idea is to bring <a href='https://meet.jit.si/'>JitsiMeet</a> to IOS users. JitsiMeet is an online in-browser video conferencing tool that combines the powerful Jitsi video bridge MCU
-                with the HTML5 WebRTC API to provide a secure, plugin-free conferencing tool. We have been tasked by the Jitsi team to port JitsiMeet to the IOS platform. This is a very interesting project as I’m applying Google’s WebRTC API with my own
-                signalling protocol as there are no restriction to use a particular signalling framework (SIP, XMPP).
-                <br>&nbsp;&nbsp;&nbsp; Our plan is to first develop the client and server that can establish a peer connection with other clients via our signalling protocol. Once we have a working system we will port it to IOS using Apple’s Swift language.
-                We will be using Node.js for the server and Sockets for the signalling.</p>
-              <img class="img-responsive img-centered" src="img/portfolio/jitsi-pic.png" alt="">
-              <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="window.location.href='https://github.com/sngpranay/WebRTC-video-conferencing-client'"><i class="fa fa-times"></i> Checkout Code</button>
+              <h2>Jello, A tool for Synthetic Biologists</h2>
+              <p class="item-intro text-muted">Jello is a user friendly tool to help Synthetic Biologists at Boston University's <a href='http://cidarlab.org/'>Cidar Lab</a> optimize and test their electronic design specifications with <a href="http://cellocad.org/">Cello</a>.
+              <br><br>
+               Cello converts electronic design specifications of combinational logic to complete DNA sequences encoding transcriptional logic circuits that can be executed in bacterial cells. A database of transcriptional repressors characterized in the Voigt lab provide genetic NOT gates and NOR gates that can be composed into any logic function.
+
+               <br><br> This Tool is truly unique in that gives the Biologists a way to automate and even optimize their designs, while providing the user with an easy to use interface.
+
+                <br><br>Jello is written using Javascript and Nodejs, but it is able to utilize the python-shell node module to run python scripts inside of the node server. The purpose of this unique implementation is to use a python script is to iterate through large text files and uses an algorithm to compute an optimal implementation to send to Cello for processing. Meaningful information is retrieved and extracted with the use of a python script as well and then it is displayed on the client side of our applicaton.
+
+                <br><br>This software was challenging because I did not have any prior knowledge of synthetic biology principles. This project is a good example of my ability to take software design practices I have learned and to find good solutions to problems despite a lack of background in the particular topic.  
+                </p>
+              <img class="img-responsive img-centered" src="img/portfolio/cello.png" alt="">
+              <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="window.location.href='https://github.com/jmeunier28/jellotool'"><i class="fa fa-times"></i> Checkout Code</button>
             </div>
           </div>
         </div>

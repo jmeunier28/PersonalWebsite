@@ -1,0 +1,29 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.centered-wrapper {
+    position: relative;
+    text-align: center;
+    top:0%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 950px;
+    height: 1200px;
+    border: 3px solid black;
+    
+}
+.centered-wrapper:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 0; height: 100%;
+    vertical-align: middle;
+}
+.centered-content {
+    display: inline-block;
+    vertical-align: middle;
+}
