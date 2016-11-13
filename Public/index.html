@@ -141,6 +141,21 @@
             <p class="text-muted">Product Testing</p>
           </div>
         </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/track.png" class="img-responsive" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Indoor Tracking System with Nodejs</h4>
+            <p class="text-muted">Software Development</p>
+          </div>
+        </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
@@ -426,6 +441,48 @@
               <img class="img-responsive img-centered" src="img/portfolio/graph.png" alt="" style="width: 600px; height: 380px;">
 
               <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="window.location.href='https://github.com/jmeunier28/Real_Time_Temp'">Checkout Code</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Portfolio Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>Indoor Tracking and Positioning System</h2>
+              <p class="item-intro text-muted">An ongoing project part of EC544 coursework. This challenge was to utilize Arduino XBee shields to determine the position of a controller on the fourth floor of the Boston University ECE's departments building.  
+
+              <br><br>
+
+               The wireless XBee shields are positioned around the fourth floor and their RSSI signals are sent to a controller where they are read and processed by the Nodejs server code. Based on each XBee beacon's signal strength the predicted position could be in one of twenty two possible bins. In order to determine this a python script that utlizes a knn classifier algorithm which predicts the position based on training data points that were collected ahead of time.   
+               <br><br>
+               The predicted position is sent to the client side of the application and the position is highlighted as being in one of 22 bins which can be seen by the image below:                 <br><br>
+              </p>
+              <h5>Snap shot of client implemented in html and javascript:</h5>
+              </p >
+              <br>
+              <img class="img-responsive img-centered" src="img/chal6front.png" alt="" style="width: 600px; height: 380px;">
+              <br><br>
+              <h5>High Level System Setup </h5>
+              <br>
+              <img class="img-responsive img-centered" src="img/chal6.png" alt="">
+              <p >
+
+              <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="window.location.href='https://github.com/jmeunier28/TrackPosition'">Checkout Code</button>
             </div>
           </div>
         </div>
